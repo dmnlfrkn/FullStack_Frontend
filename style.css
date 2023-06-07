@@ -1,4 +1,66 @@
-p{
+/*
+    Project Name: Blog Page
+    -Name: SPA
+    -Author: Furkan DUMANLI
+    -Version: v.1
+    -Description: This project is a blog page of a web development project.
+*/
+/*  ####################################################################*/
+/*  ### COMMON PROPERTY ###*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    line-height: 1.7;
     font-size: 2rem;
-    
+    /* 10px*2rem = 20px */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin: 0 2rem;
+    text-align: justify;
+    font-size: 1.5rem!important;
+    opacity: .9;
+    font-weight: 400;
+}
+
+i{
+    font-size: 4rem;
+    color: rgb(162,7,252,.5);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 50% 50%;*/
+    border-radius: 5%;
+}
+img:hover{
+    cursor: pointer;
+    border: .1rem solid rgba(162,7,252,.5);
+    opacity: .9;
+    transition: 3s all;
+}
+
+.myclearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
