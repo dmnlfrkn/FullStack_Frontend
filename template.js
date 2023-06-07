@@ -20,10 +20,6 @@ $(document).ready(function () {
 let darkMode = () => {
     //alert("çalıştı");
     window.document.body.classList.toggle("dark_mode");
-  let performance=  window.document.getElementById("performance");
-  // CSS Dom
-  performance.style.backgroundColor="black";
-  performance.style.color="white";
 }
 
 // Html5 CSs3 JS jQuery Responsive React -+ES5

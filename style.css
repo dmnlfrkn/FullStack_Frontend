@@ -109,10 +109,17 @@ img:hover{
 /*  ####################################################################*/
 /*  ### NAVBAR FIRST ###*/
 #navbar_first{
+    
     background-color: black;
     color: wheat;
     max-height: 3rem;
 
+}
+#navbar_first_left{
+    text-align: left;
+}
+#navbar_first_right{
+    text-align: right;
 }
 #navbar_first_left ul li{
     display: inline-block;
@@ -139,6 +146,11 @@ img:hover{
 #logo_id{
     width: 3rem;
 }
+/*  ### DARK MODE ### */
+.dark_mode{
+    background-color: rgb(30, 30, 30);
+    color: wheat;
+}
 
 /*  ####################################################################*/
 /*  ### HEADER ###*/
@@ -150,7 +162,7 @@ header{
     height: 70vh;
     padding-top: 10rem;
 }
-header h1,h4{
+header h1,header h4{
     color: wheat;
     text-transform: uppercase;
 }
@@ -181,6 +193,11 @@ header h1,h4{
 .counter-header h3,p{
     text-align: center;
     text-transform: capitalize;
+}
+.counter-header h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
 }
 .counter_icon{
     font-size: 4rem;
