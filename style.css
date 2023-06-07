@@ -28,8 +28,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     position: relative;
     line-height: 1.7;
-    font-size: 2rem;
-    /* 10px*2rem = 20px */
+    /* font-size: 2rem; */ /* 10px*2rem = 20px */
     background-color:var(--template-bg) ;
 }
 
@@ -44,14 +43,14 @@ ul {
 p {
     margin: 0 2rem;
     text-align: justify;
-    font-size: 1.5rem!important;
+    /* font-size: 1.5rem!important; */
     opacity: .9;
     font-weight: 400;
 }
 
 i{
     font-size: 2rem;
-    color: rgb(162,7,252,.5);
+    /* color: rgb(162,7,252,.5); */
 }
 
 img{
@@ -120,4 +119,23 @@ footer{
     width: auto;
     background-color: black;
     color: wheat;
+}
+
+/*  ####################################################################*/
+/*  ### BACK TOP ###*/
+
+#back_top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: .5rem;
+    margin-right: .6rem;
+    margin-bottom: .6rem;
+}
+
+#back_top:hover{
+   background-color: wheat;
+   color: #0B5ED7;
+   opacity: 0.9;
+   transition: all 3s;
 }
