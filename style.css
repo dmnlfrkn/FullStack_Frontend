@@ -167,6 +167,25 @@ header h1,h4{
     box-shadow: 1px 1px 0px 1px rgba(0,0,0,.2);
 }
 
+/*  ### Başarılarımız ###*/
+#counter{
+    background-color: rgb(30, 30, 30);
+    color: wheat;
+    padding: 4rem 0;
+}
+.counter{
+    color:#198754;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.counter-header h3,p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.counter_icon{
+    font-size: 4rem;
+    display: block;
+}
 
 
 
