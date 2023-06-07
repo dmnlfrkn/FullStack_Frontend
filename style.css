@@ -71,7 +71,11 @@ img:hover{
     display: block;
     clear: both;
 }
-
+.flag {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0!important;
+}
 /*  ####################################################################*/
 /*  ### LINE CLAMP ###*/
 .line-clamp4{
@@ -110,9 +114,19 @@ img:hover{
     max-height: 3rem;
 
 }
-#navbar_first_left ul li, #navbar_first_right button{
+#navbar_first_left ul li{
     display: inline-block;
-    padding-top: .5rem;
+    
+}
+
+#navbar_first_right ul li {
+    display: inline-block;
+    
+    margin-right:-0.1rem
+}
+#navbar_first_right img {
+    border-radius: 50% 50%;
+    max-width: 200% !important;
 }
 
 /*  ####################################################################*/
@@ -125,6 +139,23 @@ img:hover{
 #logo_id{
     width: 3rem;
 }
+
+/*  ####################################################################*/
+/*  ### HEADER ###*/
+header{
+    background-image: url("./img/header.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    /* height: 50rem; */
+    height: 70vh;
+    padding-top: 10rem;
+}
+header h1,h4{
+    color: wheat;
+    text-transform: uppercase;
+}
+
+
 
 /*  ####################################################################*/
 /*  ### FOOTER ###*/
