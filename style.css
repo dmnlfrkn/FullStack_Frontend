@@ -108,10 +108,24 @@ img:hover{
     background-color: black;
     color: wheat;
     max-height: 3rem;
+
 }
-#navbar_first ul li{
+#navbar_first_left ul li, #navbar_first_right button{
     display: inline-block;
+    padding-top: .5rem;
 }
+
+/*  ####################################################################*/
+/*  ### NAVBAR SECOND ###*/
+#navbar_second {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#logo_id{
+    width: 3rem;
+}
+
 /*  ####################################################################*/
 /*  ### FOOTER ###*/
 footer{
@@ -119,6 +133,12 @@ footer{
     width: auto;
     background-color: black;
     color: wheat;
+    padding: 1rem;
+}
+
+#footer_copy_right{
+    min-height: 5rem;
+    padding: 2rem;
 }
 
 /*  ####################################################################*/
@@ -131,6 +151,7 @@ footer{
     padding: .5rem;
     margin-right: .6rem;
     margin-bottom: .6rem;
+
 }
 
 #back_top:hover{
