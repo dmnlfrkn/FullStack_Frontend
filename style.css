@@ -154,6 +154,19 @@ header h1,h4{
     color: wheat;
     text-transform: uppercase;
 }
+/*  ####################################################################*/
+/*  ### MAIN ###*/
+
+/*  ### Çalışmalarımız ###*/
+#studies{
+    margin: 4rem 0;
+}
+.studies_icon{
+    font-size: 4rem;
+    margin: 1rem 0;
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0,.2);
+}
+
 
 
 

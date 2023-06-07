@@ -125,9 +125,13 @@
         </div>
     </div>
     <!-- Modal Login -->
-
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    
+    </script>
     <!-- Modal Register: firstName, lastName, email, password, address  -->
-
+    
     <!-- navbat_second start -->
     <nav id="navbar_second" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top38">
         <div class="container">
@@ -140,34 +144,26 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Anasayfa <span
+                        <a class="nav-link active" href="#" aria-current="page">Anasayfa<span
                                 class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#studies">Çalışmalar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#performance">Başarılar</a>
+                        <a class="nav-link" href="#about">Hakkımızda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#newspaper">Haberler</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Hakkımızda</a>
+                        <a class="nav-link" href="#studies">Çalışmalar</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Blog</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#blog">Yazılım</a>
-                            <a class="dropdown-item" href="#">Bilim</a>
+                            <a class="dropdown-item" href="#BackendBlogs">Backend Yazıları</a>
+                            <a class="dropdown-item" href="#FrontendBlogs">Frontend Yazıları</a>
                         </div>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#maps">İletişim</a>
-                    </li>
-
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
                     <input type="text" id="tags" class="form-control me-sm-2" placeholder="Arama..." />
@@ -199,42 +195,36 @@
 
     <!-- main start -->
     <main id="main_id">
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem aliquam quasi quae recusandae. Hic qui
-                maiores omnis quam deserunt doloremque quia voluptates perferendis. Est iure facilis expedita sapiente
-                ducimus!
-                Possimus illo eos inventore, labore, libero unde numquam consectetur blanditiis excepturi culpa facere
-                repellat distinctio minus tenetur facilis tempore dolores laboriosam corrupti iure quo ex dolorum. Iure
-                cupiditate inventore natus!
-                Vel vero aliquam expedita.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quia, dignissimos atque quis veniam magnam
-                praesentium est, doloribus, quae eligendi accusantium quibusdam adipisci nisi. Adipisci nihil corporis
-                velit nulla nisi.
-                Enim mollitia unde, pariatur et dolor inventore, dolores amet tempora exercitationem veritatis sint
-                molestias ducimus corporis nisi magnam, ratione odit vitae esse? Minus esse provident magni quod,
-                temporibus recusandae iure!
-                Aspernatur eveniet ut sed eum nihil veniam deserunt alias asperiores repellendus! Est placeat adipisci
-                asperiores tenetur commodi provident facere quaerat, architecto incidunt magni unde illum repellendus
-                quidem possimus magnam doloribus.
-                Ipsum tempore harum, iure modi dolorem libero reprehenderit soluta dolor consectetur blanditiis delectus
-                hic quisquam placeat laudantium eum odio necessitatibus. Animi perspiciatis qui modi porro debitis eum
-                fugit ipsum quia?
-                Quos totam quas sapiente fugiat qui id consequatur inventore mollitia odio, ex obcaecati nobis doloribus
-                facilis illo eum iure dolor. In, ipsum. Voluptate voluptas distinctio iste quam vel. Totam, ducimus?
-                Assumenda blanditiis officia sit vel, ducimus enim culpa, omnis possimus officiis praesentium
-                consequatur. Ipsa, laboriosam sint molestiae, aliquam cumque voluptate sunt, adipisci suscipit dolorum
-                quos facilis qui quod commodi natus?
-                Rem in sunt, doloremque hic excepturi placeat error possimus dolorem saepe debitis modi provident esse
-                impedit unde, nihil iusto! Praesentium laboriosam voluptates voluptate iusto qui molestiae quos totam
-                quas quae?
-                Mollitia aliquam perspiciatis maiores eveniet magni ullam, perferendis animi fugit! Libero laboriosam
-                harum amet ad explicabo expedita fugit excepturi? Harum, quia. Laborum in facilis adipisci. Id ipsum
-                impedit eum quo.
-                Expedita aliquam veritatis necessitatibus totam, saepe non quo eum laborum cupiditate distinctio nam
-                provident cumque sed dolorum, porro eos. Eos porro obcaecati velit accusantium quidem sed culpa ea
-                quaerat quo!
-                Dolorum optio veritatis, molestias veniam at nulla dignissimos porro aperiam numquam, hic vel eos iusto
-                nemo sapiente ut nam. Eaque dolores ex vitae autem ut atque explicabo obcaecati? Nihil, corporis.
+        <section id="studies" class="shadow p-4 wow animate__bounceInDown" data-wow-delay="0.50s">
+            <h2 class="text-center text-uppercase">Çalışmalarımız</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- 1. icon -->
+                    <div class="col-md-4 col-xl-4 text-center">
+                        <!-- fa-sm fa-lg fa-lg fa-xl fa-2xl -->
+                        <i class=" studies_icon fa-solid fa-laptop-code"></i>
+                        <h4 class="text-dark">Frontend</h4>
+                        <p class="line-clamp4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia omnis praesentium enim esse corporis tempore exercitationem atque quam nemo?</p>
+                        <a href="">more</a>
+                    </div>
+                    <!-- 2. icon -->
+                    <div class="col-md-4 col-xl-4 text-center">
+                        <!-- fa-sm fa-lg fa-lg fa-xl fa-2xl -->
+                        <i class="studies_icon fa-solid fa-gears"></i>
+                        <h4 class="text-dark">Backend</h4>
+                        <p class="line-clamp4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia omnis praesentium enim esse corporis tempore exercitationem atque quam nemo?</p>
+                        <a href="">more</a>
+                    </div>
+                    <!-- 2. icon -->
+                    <div class="col-md-4 col-xl-4 text-center">
+                        <!-- fa-sm fa-lg fa-lg fa-xl fa-2xl -->
+                        <i class="studies_icon fa-solid fa-server"></i>
+                        <h4 class="text-dark">Database</h4>
+                        <p class="line-clamp4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quia omnis praesentium enim esse corporis tempore exercitationem atque quam nemo?</p>
+                        <a href="">more</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- main start -->
@@ -291,15 +281,11 @@
 
     <!-- ends codes -->
 
-
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+     <!-- Counterup JavaScript Libraries -->
+    <!-- 
+    <script src="./experiences/waypoints/waypoints.min.js"></script>
+    <script src="./experiences/counterup/counterup.min.js"></script> 
+    -->
 
     <!-- for Bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
